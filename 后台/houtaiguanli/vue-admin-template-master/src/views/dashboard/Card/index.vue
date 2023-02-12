@@ -1,0 +1,38 @@
+<template>
+  <el-row :gutter="10">
+    <el-col :span="6">
+      <el-card>
+        <Detail></Detail>
+      </el-card>
+    </el-col>
+    <el-col :span="6">
+      <el-card>
+        <Detail></Detail>
+      </el-card>
+    </el-col>
+    <el-col :span="6">
+       <el-card>
+        <Detail></Detail>
+      </el-card>
+    </el-col>
+    <el-col :span="6">
+       <el-card>
+        <Detail></Detail>
+      </el-card>
+    </el-col>
+  </el-row>
+</template>
+
+<script>
+// 引入组件
+import Detail from "./Detail";
+export default {
+  name: "",
+  components: {
+    Detail,
+  },
+};
+</script>
+
+<style>
+</style>
